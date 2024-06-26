@@ -13,11 +13,8 @@ document.getElementById('diagnose-btn').addEventListener('click', function() {
         loss_of_smell: form.elements['loss_of_smell'].value,
         loss_of_taste: form.elements['loss_of_taste'].value
     };
-
-    // Lógica para determinar o diagnóstico baseado nos sintomas
     let diagnosis = "Os sintomas não correspondem a uma doença conhecida.";
 
-    // Exemplos adicionais de diagnósticos baseados em combinações de sintomas
     if (symptoms.fever === 'yes' && symptoms.cough === 'yes' && symptoms.breathing_difficulty === 'yes') {
         diagnosis = "Você pode estar com COVID-19. Consulte um médico imediatamente.";
     } else if (symptoms.fever === 'yes' && symptoms.headache === 'yes' && symptoms.nausea === 'yes') {
@@ -33,8 +30,6 @@ document.getElementById('diagnose-btn').addEventListener('click', function() {
     } else if (symptoms.fever === 'yes' && symptoms.muscle_pain === 'yes' && symptoms.nausea === 'yes') {
         diagnosis = "Você pode estar com leptospirose. Procure um médico imediatamente.";
     }
-
-    // Exibir o diagnóstico em um alerta
     alert(diagnosis);
 
     // Limpar os campos de seleção
