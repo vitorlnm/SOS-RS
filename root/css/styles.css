@@ -11,9 +11,13 @@ html {
 }
 
 body{
-    background-color: #0B1D26;
+    background-color: #0b1d2600;
     color: white;
+    margin: 0;
+    overflow-x: hidden; 
+    z-index: 2;
 }
+
 
 a {
     text-decoration: none;
@@ -26,55 +30,282 @@ ul {
 nav {
     max-width: 650px;
     margin: auto;
-    padding: 15px 50px 0px 50px;
+    padding: 0px 40px 0px 40px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
+
 #logoTittle{
     text-transform: uppercase;
     font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    z-index: 2;
 }
 
-#logoAcc{
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
+.logoAcc{
+    width: 15px;
+    height: 15px;
+    margin-top: 6px;
+    z-index: 10;
+    position: relative;
 }
 
 #headInfo{
     font-family: Montserrat;
     font-weight: 300;
-    font-size: 9px;
+    font-size: 8px;
+    z-index: 2;
 }
 
 .upTittle{
     display: inline-block;
+    z-index: 2;
 }
 
 #smallTittle {
     font-family: Montserrat;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 10px;
-    margin-left: 60px;
+    font-size: 7px;
+    margin-left: 45px;
+    color: #FBD784;
+    z-index: 2;
 }
 
 #linha{
     color: #FBD784;
     width: 10%;
-    margin-top: -9px;
+    margin-top: -6px;
+    border-color: #FBD784;
+    z-index: 2;
 }
 
 .information {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin: 100px 100px 0px 100px;
+    margin: 80px 50px 0px 40px;
+    z-index: 2;
+}
+
+.container{
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 0px 0px 0px;
+    line-height: 3rem;
+    z-index: 2;
+}
+
+#E{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #FBD784;
+    z-index: 2;
+}
+
+.infoAbaixo{
+    display: inline-block;
+    margin-top: -10px;
+    z-index: 2;
+}
+
+.info {
+    margin: 30px 0px -14px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 8px;
+    opacity: 95%;
+    z-index: 2;
+}
+
+#setaDeslizar{
+    width: 15px;
+    height: 15px;
+    margin-left: 84px;
+    z-index: 2;
+}
+
+.background{
+    width: 100%; 
+    height: 150vh;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    filter:grayscale(40%);
+}
+
+.scrollLado{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 7px;
+    z-index: 10;
+}
+
+#linhaScroll{
+    width: 20%;
+    z-index: 2;
+    transform: rotate(90deg);
+    display: fixed;
+    position: absolute;
+    left: 23rem;
+    top: 15rem;
+    border-width: 2.5px;
+} 
+
+.itensScroll{
+    display: fixed;
+    position: absolute;
+    left: 23.8rem;
+    top: 12.45rem;
+    text-align: right;
+    line-height: 22px;
+}
+
+.perguntas{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    z-index: 2;
+}
+.titulo{
+    font-family: Montserrat;
+    font-size: 14px;
+    margin-top: -40px;
+    z-index: 10;
+}
+
+#txtTitulo{
+    font-weight: 400;
+    text-shadow: 1px 4px 5px black;
+    text-align: center;
+    font-size: 24px;
+}
+
+#subText{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 8px;
+    margin-top: 5px;
+    opacity: 0.5;
+    letter-spacing: 7px;
+    
+}
+
+
+.sombraLinear {
+    width: 100%;
+    height: 1300px; 
+    background: linear-gradient(to bottom, rgba(11, 29, 38, 0) 0%, #0B1D26 100%);
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    padding: 100px 0px 0px 0px;
+}
+
+
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; 
+    z-index: 2;
+}
+
+.painel {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 60px 20px 20px 20px; 
+    margin-bottom: 2px; 
+    z-index: 2;
+}
+
+.question {
+    margin-bottom: 50px; 
+    font-family: Montserrat;
+    font-size: 0.8rem; 
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.question label {
+    display: block;
+    margin-bottom: -5px; 
+}
+
+.question input {
+    margin-right: 5px;
+}
+
+#diagnose-btn {
+    padding: 10px 60px;
+    background-color: #FBD784;
+    border: none;
+    border-radius: 50px;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Adiciona margem automática nas laterais para centralizar */
+}
+
+
+#result {
+    font-family: Montserrat;
+    font-size: 0.8rem; 
+    z-index: 2;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 20px 50px 20px 50px;
+}
+
+footer {
+    background-color: #0b1d2649; 
+    color: white; 
+    text-align: center;
+    padding: 12px 0; 
+    position: relative;
+    width: 100%; 
+    bottom: 0;
+    z-index: 2; 
+    font-family: Montserrat;
+    margin-top: 50px;
+
+}
+
+.footer-container {
+    max-width: 650px; 
+    margin: auto; 
+}
+
+footer p {
+    font-size: 10px;
+    opacity: 0.7;
+    display: inline-block;
+    flex-direction: column;
+}
+
+#p1{
+    padding-right: 7px;
+    font-weight: 600;
+}
+
+#p2{
+    font-weight: 500;
 }
 
 
