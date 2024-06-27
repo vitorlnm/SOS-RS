@@ -48,12 +48,34 @@ nav {
     z-index: 2;
 }
 
-.logoAcc{
-    width: 15px;
+#logoTittle:hover {
+    opacity: 0.8; 
+}
+
+#headInfo:hover{
+    opacity: 0.8;
+}
+
+.logoAcc {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    width: 15px; 
     height: 15px;
-    margin-top: 6px;
-    z-index: 10;
+    margin-top: 6px; 
     position: relative;
+    z-index: 10;
+}
+
+.logoAcc img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+button.logoAcc:hover {
+    opacity: 0.8; 
 }
 
 #headInfo{
