@@ -18,6 +18,8 @@
           Camera com <span class="bg-yellow-500 rounded text-black px-2">JS</span>
         </h1>
         <button id="btn-open-camera" class="px-4 py-2 bg-blue-500 text-white  rounded">Abrir camera</button>
+        <button id="voltar" href="index.html" class="px-4 py-2 bg-blue-500 text-white  rounded">Voltar</button>
+
       </div>
       <div id="dialog-camera" class="absolute w-screen h-screen bg-stone-900 z-10 hidden">
         <div class="w-full h-full" id="video-preview-container">
@@ -43,6 +45,11 @@
       </div>
     </div>
   </main>
+  <script>
+    document.getElementById("voltar").addEventListener("click", function() {
+        window.location.href = "index.html";
+    });
+</script>
   <script src="./js/cam.js"></script>
 </body>
 </html>

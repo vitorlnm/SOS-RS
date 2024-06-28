@@ -332,4 +332,162 @@ footer p {
 
 /* Media Queries */
 
+@media screen and (max-width: 1024px) {
+    nav {
+        padding: 0 30px;
+    }
+
+    #logoTittle {
+        font-size: 12px;
+    }
+
+    .logoAcc {
+        width: 14px;
+        height: 14px;
+    }
+
+    .information {
+        margin: 60px 30px 0 30px;
+    }
+
+    .container {
+        font-size: 1.7rem;
+        line-height: 2.7rem;
+    }
+
+    #E {
+        font-size: 1.9rem;
+    }
+
+    .info {
+        font-size: 7.5px;
+    }
+
+    .scrollLado {
+        font-size: 6.5px;
+    }
+
+    #linhaScroll {
+        left: 18rem;
+        top: 13rem;
+    }
+
+    .itensScroll {
+        left: 18.8rem;
+        top: 11.45rem;
+    }
+
+    .perguntas {
+        margin-top: 200px;
+    }
+
+    .titulo {
+        font-size: 13px;
+    }
+
+    #txtTitulo {
+        font-size: 22px;
+    }
+
+    #subText {
+        font-size: 7.5px;
+    }
+
+    .sombraLinear {
+        height: 1200px;
+    }
+
+    .question {
+        font-size: 0.75rem;
+    }
+
+    #result {
+        font-size: 0.75rem;
+        margin: 20px 40px;
+    }
+
+    footer p {
+        font-size: 9.5px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        padding: 0 35px;
+    }
+
+    #logoTittle {
+        font-size: 12.5px;
+    }
+
+    .logoAcc {
+        width: 14.5px;
+        height: 14.5px;
+    }
+
+    .information {
+        margin: 70px 35px 0 35px;
+    }
+
+    .container {
+        font-size: 1.75rem;
+        line-height: 2.8rem;
+    }
+
+    #E {
+        font-size: 1.95rem;
+    }
+
+    .info {
+        font-size: 7.75px;
+    }
+
+    .scrollLado {
+        font-size: 6.75px;
+    }
+
+    #linhaScroll {
+        left: 23rem;
+        top: 15rem;
+        opacity: 0.3;
+    }
+
+    .itensScroll {
+        left: 23.7rem;
+        top: 12.45rem;
+    }
+
+    .perguntas {
+        margin-top: 220px;
+    }
+
+    .titulo {
+        font-size: 13.5px;
+    }
+
+    #txtTitulo {
+        font-size: 23px;
+    }
+
+    #subText {
+        font-size: 7.75px;
+    }
+
+    .sombraLinear {
+        height: 1250px;
+    }
+
+    .question {
+        font-size: 0.78rem;
+    }
+
+    #result {
+        font-size: 0.78rem;
+        margin: 20px 45px;
+    }
+
+    footer p {
+        font-size: 9.75px;
+    }
+}
 
