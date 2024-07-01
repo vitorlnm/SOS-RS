@@ -277,12 +277,12 @@ button.logoAcc:hover {
 }
 
 #diagnose-btn {
-    padding: 10px 60px;
+    padding: 8px 50px;
     background-color: #FBD784;
     border: none;
     border-radius: 50px;
     font-family: Montserrat;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     font-weight: 500;
     cursor: pointer;
     display: block;
@@ -304,7 +304,7 @@ footer {
     background-color: #0b1d2649; 
     color: white; 
     text-align: center;
-    padding: 12px 0; 
+    padding: 10px 0; 
     position: relative;
     width: 100%; 
     bottom: 0;
