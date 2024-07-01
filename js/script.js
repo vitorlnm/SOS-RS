@@ -35,3 +35,16 @@ document.getElementById('diagnose-btn').addEventListener('click', function() {
     // Limpar os campos de seleção
     form.reset();
 });
+
+window.addEventListener('scroll', function() {
+    var scrollLado = document.getElementById('scrollLado');
+    var scrollPosition = window.scrollY;
+    
+    if (scrollPosition > 50) { 
+        scrollLado.style.opacity = '0';
+    } else {
+        scrollLado.style.opacity = '1';
+    }
+});
+
+

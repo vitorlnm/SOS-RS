@@ -1,42 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 body {
     font-family: Montserrat, sans-serif;
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: #ffffff; /* Cor de fundo branca */
+    color: #333; /* Cor do texto principal */
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    height: 100vh;
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-    background: #1e1e1e;
+    background: #ffffff; /* Cor de fundo do container */
     padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
     border-radius: 8px;
 }
 
 h1 {
     text-align: center;
-    color: #ffffff;
+    color: #333; /* Cor do título */
     font-size: 2em;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
 
-p{
+p {
     text-align: center;
     margin: -30px 0px 15px 0px;
     padding-left: 8px;
-    font-size: 7px;
-    letter-spacing: 6px;
+    font-size: 14px; /* Tamanho de fonte aumentado para legibilidade */
+    letter-spacing: 1px;
     text-transform: uppercase;
+    color: #555; /* Cor do texto de parágrafo */
 }
-span{
+
+span {
     border-bottom: 2px solid #444;
 }
 
@@ -51,17 +53,17 @@ span{
 
 .owl-carousel .item img {
     width: 40rem;
-    height: 30rem;
+    height: auto; /* Altura automática para manter proporções */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
 }
 
 .owl-carousel .item #texto {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0px;
     margin: 20px 0px 0px 0px;
-    
+    color: #666; /* Cor do texto do item */
 }
 
 .owl-nav button {
@@ -86,13 +88,13 @@ span{
     background: #fff;
 }
 
-.camera{
+.camera {
     display: flex;
     justify-content: center;
     margin: 10px 0px -10px 0px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1928px) {
     .container {
         width: 90%;
     }
