@@ -30,6 +30,7 @@ ul {
 nav {
     max-width: 1920px;
     margin: auto;
+    margin-top: 15px;
     padding: 0px 40px 0px 40px;
 
     display: flex;
@@ -285,7 +286,7 @@ button.logoAcc:hover {
     font-weight: 500;
     cursor: pointer;
     display: block;
-    margin: 0 auto; /* Adiciona margem automática nas laterais para centralizar */
+    margin: 0 auto;
 }
 
 
@@ -309,7 +310,7 @@ footer {
     bottom: 0;
     z-index: 2; 
     font-family: Montserrat;
-    margin-top: 50px;
+    margin-top: 80px;
 
 }
 
@@ -351,7 +352,7 @@ footer p {
     }
 
     .information {
-        margin: 150px 30px 0 80px;
+        margin: 150px 30px 0 30px;
     }
 
     .container {

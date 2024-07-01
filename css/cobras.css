@@ -1,28 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
     font-family: Montserrat, sans-serif;
-    background-color: #ffffff; /* Cor de fundo branca */
-    color: #333; /* Cor do texto principal */
+    background-color: #ffffff; 
+    color: #333; 
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
 }
 
 .container {
     width: 75%;
     margin: 0 auto;
-    background: #ffffff; /* Cor de fundo do container */
+    background: #ffffff; 
     padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 h1 {
     text-align: center;
-    color: #333; /* Cor do título */
+    color: #333;
     font-size: 2em;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -32,10 +33,10 @@ p {
     text-align: center;
     margin: -30px 0px 15px 0px;
     padding-left: 8px;
-    font-size: 14px; /* Tamanho de fonte aumentado para legibilidade */
+    font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #555; /* Cor do texto de parágrafo */
+    color: #555;
 }
 
 span {
@@ -53,9 +54,9 @@ span {
 
 .owl-carousel .item img {
     width: 40rem;
-    height: auto; /* Altura automática para manter proporções */
+    height: auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .owl-carousel .item #texto {
@@ -63,7 +64,7 @@ span {
     font-size: 14px;
     letter-spacing: 0px;
     margin: 20px 0px 0px 0px;
-    color: #666; /* Cor do texto do item */
+    color: #666;
 }
 
 .owl-nav button {
